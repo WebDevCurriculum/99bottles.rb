@@ -1,0 +1,18 @@
+** First Step: grab lyrics to song **
+** Second Step - Think through code/organize program**
+    - create a variable to store lyrics (no need for this one, can just print lyrics)
+    - create a function that takes one away from the total number of beers
+    - print out new number of beers 
+    
+    n = 99
+    while n != 0
+      puts n.to_s + " bottles of beer on the wall, " + n.to_s + " bottles of beer."
+      puts "Take one down and pass it around, " + n.to_s + " bottles of beer on the wall."
+  n = n - 1
+    if n = 0
+      puts "No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall."
+    end 
+end
+
+    
+
